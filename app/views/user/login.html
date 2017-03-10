@@ -1,0 +1,13 @@
+  <div class="container">
+ <h2>Login Form</h2>
+ <form ng-submit="loginUser(user)" method="POST">
+   <div class="form-group">
+     <label for="name">Name:</label>
+     <input type="text" class="form-control" ng-model="user.name" id="name" placeholder="Enter name">
+   </div>
+   <div class="form-group">
+     <label for="contact">contact No:</label>
+     <input type="text" class="form-control" ng-model="user.contactNo" id="contact" placeholder="Enter contact">
+   </div>
+   <button type="submit" class="btn btn-default">Login</button>
+</form>
